@@ -1,0 +1,388 @@
+/*color classes*/
+.bg-green{
+    background: #1a6169;
+}
+.diamond-yellow{
+    color: #ffb90c;
+}
+.main-color-brown-khoshmaze{
+    color: #92816D !important;
+}
+.secondary-text-color{
+    color: #626262;
+}
+.google-color{
+    color: #db3236;
+}
+.red{
+    color: red;
+}
+/*color classes*/
+html{
+    background-image: url("../images/background/home_recipes_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body{
+    background: none;
+}
+
+#all-body-boxed{
+    /*height: 1000px;*/
+    padding-bottom: 50px !important;
+    background: #fcf9ef;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    box-shadow: 1px 1px 21px #888888;
+    padding: 0px;
+    max-width: 960px;
+}
+ul{
+    list-style: none;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*top bar*/
+#top-bar{
+    height: 45px;
+    background-color: #1c7430;
+    border-bottom: 4px solid #ffb90c;
+}
+#top-bar ul{
+    padding-right: 0px;
+}
+/*share-link*/
+#share-links li{
+        float: right;
+        padding-left: 2%;
+        line-height: 41px;
+}
+#share-links li a{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    color: #ffb90c;
+    text-decoration: none;
+}
+#share-links li a:hover{
+    font-weight: 500;
+    color: #fff;
+}
+/*share-link*/
+/*contact-bar*/
+#contact-bar li{
+    float: left;
+    padding-right: 2%;
+    line-height: 41px;
+}
+#contact-bar li a{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    color: #ffb90c;
+    text-decoration: none;
+}
+#contact-bar li a:hover{
+    font-weight: 500;
+    color: #fff;
+}
+#contact-bar li{
+    float: left;
+    padding-right: 2%;
+}
+.fa-phone{
+    -webkit-transform: rotate(119deg);
+    -moz-transform: rotate(119deg);
+    -ms-transform: rotate(119deg);
+    -o-transform: rotate(119deg);
+    transform: rotate(119deg);
+}
+/*contact-bar*/
+/*top bar*/
+/*header*/
+#header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*header*/
+/*main-menu*/
+
+#navbarSupportedContent{
+    border-top: 2px solid;
+    border-color: #00000014;
+}
+#navbarSupportedContent li{
+    margin-left: 2.5rem;
+}
+#navbarSupportedContent ul{
+    padding-right: 0px;
+    justify-content: center;
+    width: 100%;
+}
+#navbarSupportedContent ul li a{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    border-top: 2px solid #fcf9ef;
+}
+#navbarSupportedContent ul li a:hover {
+    border-top-color: #7c5d3d;
+    /*color: #7c5d3d;*/
+}
+/*main-menu*/
+/*slider*/
+#slider-box{
+    border-bottom: 1px solid #4CAF50;
+    border-top: 1px solid  #4CAF50;
+    position: relative;
+    margin-bottom: 20px;
+}
+#slider-box img{
+    width: 100%;
+    /*height: 450px;*/
+    max-height: 490px;
+}
+.slider-arrow-right{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    font-size: 139%;
+    border: 1px solid #fff;
+    border-radius: 51%;
+    padding: 12px;
+    position: absolute;
+    top: 34%;
+    right: 47px;
+    cursor: pointer;
+}
+.slider-arrow-left{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    font-size: 139%;
+    border: 1px solid #fff;
+    border-radius: 51%;
+    padding: 12px;
+     position: absolute;
+     top: 34%;
+     left: 47px;
+    cursor: pointer;
+}
+.slider-arrow-right:hover{
+    background-color: #7c5d3d;
+    color: #fff;
+}
+.slider-arrow-left:hover{
+    background-color: #7c5d3d;
+    color: #fff;
+}
+/*slider*/
+/*icon-box*/
+#icon-box{
+    margin-bottom: 40px;
+}
+.icon-box{
+    padding: 5px;
+    box-shadow: 0px 0px 10px #888888;
+}
+
+    .icon-box img{
+        width: 100%;
+        border-radius: 27%;
+    }
+.icon-box h2{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 146%;
+    color: #7c5d3d;
+}
+.icon-box p{
+    color: #212121;
+}
+/*icon-box*/
+/*article-box*/
+.article-box h2{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 146%;
+    color: #7c5d3d;
+}
+.article-box p{
+    color: #626262;
+    line-height: 180%;
+}
+.article-box img {
+    box-shadow: 0px 0px 10px #888888;
+    border-radius: 3px;
+    width: 100%;
+}
+.article-content{
+    position: relative;
+}
+.article-read-more{
+    position: absolute;
+    left: 6%;
+}
+.article-comment-color{
+    color: #59be84
+}
+.article-side-comment-text{
+    color: #7c5d3d;
+}
+.article-content a{
+    text-decoration: none;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.article-content a:hover{
+    color: orangered;
+    display: inline-block;
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+.article-box{
+    margin-bottom: 30px;
+}
+#recipe-section{
+    margin-bottom: 40px;
+}
+/*article-box*/
+/*portfolio-slider*/
+.portfolio-item{
+    width: 80%;
+}
+.portfolio-item img{
+    width: 100%;
+    box-shadow: 0px 0px 10px #888888;
+}
+.portfolio-item-profile{
+    border-radius: 51%;
+}
+.portfolio-item-image{
+    margin-bottom: 20px;
+}
+.portfolio-item-content{
+    line-height: 180%;
+    position: relative;
+}
+.portfolio-item-link{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    color: #59be84;
+    text-decoration: none !important;
+}
+.portfolio-item-link:hover{
+    color: orangered;
+    display: inline-block;
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+.portfolio-item-like-number{
+    position: absolute;
+    left: 15px;
+    bottom: 14px;
+    text-decoration: none;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all .7s;
+    -o-transition: all .7s;
+    transition: all .7s;
+}
+.portfolio-item-like-icon{
+    z-index: 100;
+}
+.portfolio-item-like-icon a{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.portfolio-item-like-icon a:hover{
+    color: orangered;
+}
+.portfolio-item-like-icon:hover + span.portfolio-item-like-number{
+    color: red;
+    bottom: 52px;
+    font-size: 130%;
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+}
+.portfolio-item-google-icon{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.portfolio-item-google-icon:hover{
+    color: orangered;
+}
+/*portfolio-slider*/
+/*media-styles-responsive*/
+/*extra small screens*/
+@media screen and (max-width: 576px) {
+    div.icon-box{
+        margin-bottom: 30px;
+    }
+    .portfolio-item{
+        width: 100%;
+    }
+    .portfolio-item-profile{
+        display: none;
+    }
+}
+/*@ media max 576*/
+/*extra small screens*/
+
+/*small screen section()*/
+@media screen and (min-width: 576px) {
+    /*.portfolio-item-profile{*/
+        /*display: none;*/
+    /*}*/
+}
+/*small screen section()*/
+
+/*medium section()*/
+@media screen and (min-width: 768px) {}
+/*medium section()*/
+
+/*large screens section()*/
+@media screen and (min-width: 992px) {
+    /*.portfolio-item-profile{*/
+        /*display: block;*/
+    /*}*/
+}
+/*large screens section()*/
+/*media-styles-responsive*/

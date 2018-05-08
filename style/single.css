@@ -1,0 +1,120 @@
+
+/*recipe-image and header*/
+#recipe-image h1{
+    padding: 89px 0;
+    background-color: #1c7430;
+    margin-bottom: 0px;
+    color: #ffb90c;
+}
+#recipe-image{
+    margin-bottom: 2px;
+}
+/*recipe-image and header*/
+/*recipe-content*/
+table#table-mavad{
+    width: 100%;
+    text-align: center;
+}
+table#table-mavad tr:nth-child(2n){
+    background-color: #8bc34a99;
+}
+table#table-mavad tr:nth-child(2n+1){
+
+    background: #f4433666;
+}
+
+table#table-mavad tr{
+    line-height: 45px;
+    border: 10px solid #836647;
+}
+#tarze-pokht p{
+    line-height: 242%;
+}
+#single-content-details{
+    font-size: 88%;
+    margin-bottom: 20px;
+    color: #7c5d3d;
+}
+#single-content-details span:nth-child(2n+1){
+    margin-left: 7px;
+}
+/*recipe-content*/
+/*last-comments-single-page*/
+#last-comments-single-page{
+    width: 80%;
+    background-color: #7c5d3d7a;
+    margin-top: 55px;
+}
+#last-comment-single-page-padding{
+    padding: 4%;
+}
+#last-comment-single-page-h3{
+    padding: 15px;
+    margin-bottom: 0px !important;
+    background: #3d7c6d;
+    color: #fff;
+    font-family: iransans-web;
+    font-size: 150%;
+}
+#last-comments-single-page .portfolio-item-link:hover{
+    color: orangered;
+    display: inline-block;
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+#last-comments-single-page .portfolio-item-like-number{
+    position: absolute;
+    opacity: 0;
+    left: 15px;
+    top: 3px;
+    text-decoration: none;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all .7s;
+    -o-transition: all .7s;
+    transition: all .7s;
+}
+#last-comments-single-page .portfolio-item-like-icon{
+    z-index: 100;
+}
+#last-comments-single-page .portfolio-item-like-icon a{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+#last-comments-single-page .portfolio-item-like-icon a:hover{
+    color: orangered;
+}
+#last-comments-single-page .portfolio-item-like-icon:hover + span.portfolio-item-like-number{
+    opacity: 1;
+    color: red;
+    top: 3px;
+    font-size: 120%;
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+}
+.reply-icon-comments{
+    color: #145567;
+}
+#send-comment{
+    margin-bottom: 70px;
+}
+
+.form-style input{
+    width: 70%;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+}
+.form-style label{
+    width: 18%;
+}
+/*last-comments-single-page*/

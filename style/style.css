@@ -1,4 +1,130 @@
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/iransans/IRANSans-Bold.eot?#') format('eot'),  /* IE6–8 */
+    url('../fonts/iransans/IRANSans-Bold.woff2') format('woff2');  /* Chrome36+, Opera24+*/
+    /*url('../fonts/iransans/IRANSans-Bold.woff') format('woff');  !* FF3.6+, IE9, Chrome6+, Saf5.1+*!*/
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/iransans/IRANSans-Black.eot?#') format('eot'),  /* IE6–8 */
+    url('../fonts/iransans/IRANSans-Black.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/iransans/IRANSans-Black.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    font-weight: 900;
+}
+
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/iransans/IRANSans-UltraLight.eot?#') format('eot'),  /* IE6–8 */
+    url('../fonts/iransans/IRANSans-UltraLight.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/iransans/IRANSans-UltraLight.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/iransans/IRANSans-Light-Expanded.eot?#') format('eot'),  /* IE6–8 */
+    url('../fonts/iransans/IRANSans-Light-Expanded.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/iransans/IRANSans-Light-Expanded.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    font-weight: 300;
+}
+
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/iransans/IRANSANSExpanded.eot?#') format('eot'),  /* IE6–8 */
+    url('../fonts/iransans/IRANSANSExpanded.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/iransans/IRANSANSExpanded.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    font-weight: normal;
+}
+
+.IRANSansUltraLight {
+    font-family: IRANSans-web;
+    color: #000;
+    margin-right: 50px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FFF;
+    font-weight: 200;
+}
+
+.IRANSansLight {
+    font-family: IRANSans-web;
+    color: #000;
+    margin-right: 50px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FFF;
+    font-weight: 300;
+}
+
+.IRANSans {
+    font-family: IRANSans-web;
+    color: #000;
+    margin-right: 50px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FFF;
+    font-weight: normal;
+}
+
+.IRANSansBold {
+    font-family: IRANSans-web;
+    color: #000;
+    margin-right: 50px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FFF;
+    font-weight: bold;
+}
+
+.IRANSansBlack {
+    font-family: IRANSans-web;
+    color: #000;
+    margin-right: 50px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FFF;
+    font-weight: 900;
+}
+/*./iransans webfont*/
+
+@font-face {
+    font-family: 'yekan';
+    src: url(../fonts/byekan/Yekan.eot);
+    src: url(../fonts/byekan/Yekan.eot?#iefix) format("embedded-opentype"), url(../fonts/byekan/Yekan.woff) format("woff"), url(fonts/Yekan.ttf) format("truetype"), url(../fonts/byekan/Yekan.svg#BYekan) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+
+
+
+
+
+
+/*width*/
+.width-100{
+    width: 100%;
+}
+/*width*/
+/*radius*/
+.radious-51{
+    border-radius: 51%;
+}
+/*radius*/
+/*shadows*/
+.box-shadow{
+    box-shadow: 0px 0px 10px #888888;
+}
+/*shadows*/
 /*color classes*/
+.orangered{
+    color: orangered !important;
+}
 .bg-green{
     background: #1a6169;
 }
@@ -6,7 +132,7 @@
     color: #ffb90c;
 }
 .main-color-brown-khoshmaze{
-    color: #92816D !important;
+    color: #836647 !important
 }
 .secondary-text-color{
     color: #626262;
@@ -27,11 +153,11 @@ html{
 }
 body{
     background: none;
+    font-family: yekan;
 }
 
 #all-body-boxed{
     /*height: 1000px;*/
-    padding-bottom: 50px !important;
     background: #fcf9ef;
     margin-bottom: 75px;
     margin-top: 75px;
@@ -50,7 +176,7 @@ ul{
 
 /*top bar*/
 #top-bar{
-    height: 45px;
+    /*height: 45px;*/
     background-color: #1c7430;
     border-bottom: 4px solid #ffb90c;
 }
@@ -114,6 +240,47 @@ ul{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+#logo{
+    /*prespective : 1000px;*/
+    position: relative;
+    top: -300px;
+    transform-style: preserve-3d;
+    perspective: 100px;
+    perspective-origin: right;
+    animation-name: logo-rotate;
+    /*animation-delay: 2s;*/
+    animation-duration: 3s;
+    /*animation-iteration-count: 2;*/
+    /*animation-direction: alternate;*/
+    animation-timing-function: ease-in;
+     /*animation-play-state: paused;*/
+    animation-fill-mode: forwards;
+
+}
+#logo:hover{
+    /*animation-play-state: running;*/
+}
+@keyframes logo-rotate {
+    0%{}
+    30%{
+        top: 0px;
+    }
+    50%{
+        top: -50px;
+    }
+    60%{
+        top: 0px;
+    }
+    70%{
+        top: -20px;
+    }
+    80%{top: 0px;transform: rotateY(0deg)}
+    100%{
+        top: 0px;
+        transform: rotateY(360deg);
+    }
+    
+}
 /*header*/
 /*main-menu*/
 
@@ -140,6 +307,17 @@ ul{
 #navbarSupportedContent ul li a:hover {
     border-top-color: #7c5d3d;
     /*color: #7c5d3d;*/
+}
+.dropdown-menu a{
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    border-top: unset !important;
+}
+.dropdown-menu a:hover{
+    color: red !important;
 }
 /*main-menu*/
 /*slider*/
@@ -296,7 +474,7 @@ ul{
     color: #59be84;
     text-decoration: none !important;
 }
-.portfolio-item-link:hover{
+#portfolio-slider .portfolio-item-link:hover{
     color: orangered;
     display: inline-block;
     -webkit-transform: translateY(-3px);
@@ -305,7 +483,7 @@ ul{
     -o-transform: translateY(-3px);
     transform: translateY(-3px);
 }
-.portfolio-item-like-number{
+#portfolio-slider .portfolio-item-like-number{
     position: absolute;
     left: 15px;
     bottom: 14px;
@@ -316,20 +494,20 @@ ul{
     -o-transition: all .7s;
     transition: all .7s;
 }
-.portfolio-item-like-icon{
+#portfolio-slider .portfolio-item-like-icon{
     z-index: 100;
 }
-.portfolio-item-like-icon a{
+#portfolio-slider .portfolio-item-like-icon a{
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
 }
-.portfolio-item-like-icon a:hover{
+#portfolio-slider .portfolio-item-like-icon a:hover{
     color: orangered;
 }
-.portfolio-item-like-icon:hover + span.portfolio-item-like-number{
+#portfolio-slider .portfolio-item-like-icon:hover + span.portfolio-item-like-number{
     color: red;
     bottom: 52px;
     font-size: 130%;
@@ -339,20 +517,128 @@ ul{
     -o-transform: rotateY(360deg);
     transform: rotateY(360deg);
 }
-.portfolio-item-google-icon{
+#portfolio-slider .portfolio-item-google-icon{
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
 }
-.portfolio-item-google-icon:hover{
+#portfolio-slider .portfolio-item-google-icon:hover{
     color: orangered;
 }
 /*portfolio-slider*/
+/*footer*/
+#footer{
+    background-color: #dfb484;
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 2px solid #1c7430;
+}
+#footer h3{
+    font-size: 139%;
+    font-weight: 400;
+    text-align: center;
+}
+/*footer-logo*/
+
+#footer-logo ul{
+    line-height: 180%;
+    padding-right: 10px;
+}
+/*footer-logo*/
+/*best-articles*/
+#best-articles img{
+    width: 100%;
+}
+.hover-effect-footer-image{
+    transition: all .5s;
+}
+.hover-effect-footer-image:hover .footer-h3-hover{
+    opacity: .75;
+    color: #fff;
+    background: #1c7430;
+    bottom: 0%;
+}
+.footer-h3-hover{
+    -webkit-transition: background-color .5s  ease-in, color .5s ease-out, bottom .5s ease-out;
+    -moz-transition: background-color .5s  ease-in, color .5s ease-out, bottom .5s ease-out;
+    -ms-transition: background-color .5s  ease-in, color .5s ease-out, bottom .5s ease-out;
+    -o-transition: background-color .5s  ease-in, color .5s ease-out, bottom .5s ease-out;
+    transition: background-color .5s  ease-in, color .5s ease-out, bottom .5s ease-out;
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: -40%;
+    /* top: 0%; */
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    opacity: 0;
+    color: #235d28;
+    background: #5b5c5b;
+
+    padding-top: 7%;
+    padding-bottom: 7%;
+    /* width: 90%; */
+}
+/*best-articles*/
+/*comments-section*/
+.comments-image img{
+    width: 100%;
+}
+.comments-image{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.comments-content{
+    padding-right: 2px;
+    padding-left: 2px;
+}
+.comments-content span{
+    font-size: 89%;
+}
+.comments-content p{
+    margin-top: 5px;
+}
+/*comments-section*/
+/*copy-right*/
+    #copy-right{
+        height: 45px;
+        background-color: #1c7430;
+    }
+    #copy-right a{
+        color: #ffb90c;
+        -webkit-transition: color .4s;
+        -moz-transition: color .4s;
+        -ms-transition: color .4s;
+        -o-transition: color .4s;
+        transition: color .4s;
+        text-decoration: none;
+        margin: 0 2px;
+    }
+    #copy-right a:hover{
+    color: aliceblue;
+    }
+#copy-right p{
+    margin-bottom: 0px;
+    line-height: 45px;
+
+}
+/*copy-right*/
+/*footer*/
 /*media-styles-responsive*/
 /*extra small screens*/
 @media screen and (max-width: 576px) {
+    #share-links ul,#contact-bar ul{
+        display: flex;
+        justify-content: center;
+    }
+    #share-links ul{
+        margin-bottom: 0px !important;
+    }
+    #contact-bar ul{
+        display: none !important;
+    }
     div.icon-box{
         margin-bottom: 30px;
     }
@@ -368,9 +654,7 @@ ul{
 
 /*small screen section()*/
 @media screen and (min-width: 576px) {
-    /*.portfolio-item-profile{*/
-        /*display: none;*/
-    /*}*/
+
 }
 /*small screen section()*/
 
@@ -383,6 +667,24 @@ ul{
     /*.portfolio-item-profile{*/
         /*display: block;*/
     /*}*/
+}
+@media screen and (max-width: 992px) {
+    #share-links ul,#contact-bar ul{
+        display: flex;
+        justify-content: center;
+    }
+    #navbarSupportedContent ul li a{
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -ms-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        border-top: unset !important;
+    }
+    #navbarSupportedContent ul li a:hover {
+       color: red !important;
+        /*color: #7c5d3d;*/
+    }
 }
 /*large screens section()*/
 /*media-styles-responsive*/

@@ -1,0 +1,43 @@
+/*#contact-us*/
+.contact1 span:nth-child(2n){
+    color: #674726;
+}
+.contact1 span:nth-child(2n+1){
+    color: red;
+}
+.contact1{
+    line-height: 180%;
+}
+#form-tamas{
+
+    border: 2px solid #7b8216;
+    background-color: #efdfdf;
+    padding: 45px;
+}
+#tamas-ba-ma h3{
+    border: 2px solid #6e9413;
+    background-color: #87ffcd;
+    padding: 8px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+.forming input{
+    width: 80%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #f3a7a7
+}
+.forming label{
+    width: 14%;
+}
+
+/*#contact-us*/
+@media screen and (max-width: 992px){
+    .forming input{
+        width:100%;
+        padding: 4px;
+    }
+    .forming label{
+        width: 100%;
+    }
+}

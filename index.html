@@ -9,7 +9,9 @@
         مجله آشپزی خوشمزه
     </title>
     <!--main-menu-styles-->
-
+    <link rel="stylesheet" type="text/css" href="slider/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slider/slick-theme.css"/>
+    <!--slider-->
     <!--font-awsome-->
     <link rel="stylesheet" href="fonts/fna/css/fontawesome-all.css">
     <!--bootstrap style rtl version-->
@@ -18,9 +20,9 @@
     <!--main css file for homepage-->
     <link rel="stylesheet" href="style/style.css">
 </head>
-<body class="rtl">
+<body class="">
 <div id="all-body-boxed" class="container">
-    <div id="top-bar" class="container-fluid">
+    <div id="top-bar" class="container-fluid rtl">
         <div class="row">
             <nav id="share-links" class="col-12 col-md-4" >
                 <ul>
@@ -66,11 +68,11 @@
         <!--.row-->
     </div>
     <!--top-bar-->
-    <div id="header" class="container-fluid text-center">
+    <div id="header" class="container-fluid text-center rtl">
         <img id="logo" src="icons/recipes.png" alt="مجله آشپزی خوشمزه" title="مجله آشپزی خوشمزه">
     </div>
     <!--header-->
-        <div class="container-fluid main-color-brown-khoshmaze">
+        <div class="container-fluid main-color-brown-khoshmaze rtl">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <!--<a class="navbar-brand main-color-brown-khoshmaze" href="#">مجله آشپزی الماس</a>-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -111,14 +113,24 @@
             </nav>
         </div>
   <!--main-menu-->
-    <div id="slider-box">
-    <img src="images/slider/slide1.jpg" alt="slide 1">
-    <i class="fas fa-arrow-right slider-arrow-right"></i>
-    <i class="fas fa-arrow-left slider-arrow-left"></i>
+    <!--<div id="slider-box">-->
+    <!--<img src="images/slider/slide1.jpg" alt="slide 1">-->
+    <!--<i class="fas fa-arrow-right slider-arrow-right"></i>-->
+    <!--<i class="fas fa-arrow-left slider-arrow-left"></i>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;./slider-box&ndash;&gt;-->
+    <style>
+        .main-slider img {
+            /*max-height: 390px;*/
+        }
+    </style>
+    <div class="main-slider">
+        <div><img width="100%" src="images/slider/slide1.jpg" alt="slide 1"></div>
+        <div><img width="100%" src="images/slider/slide2.jpg" alt="slide 1"></div>
+        <div><img width="100%" src="images/slider/slide1.jpg" alt="slide 1"></div>
     </div>
-    <!--./slider-box-->
 
-    <div id="icon-box" class="container-fluid">
+    <div id="icon-box" class="container-fluid rtl">
             <div class="row">
                 <div class="col-sm-6 col-md-4 col-lg-4">
                 <div class="icon-box mb-sm-3 mb-lg-0">
@@ -159,7 +171,7 @@
             </div>
     </div>
     <!--#/icon-box-->
-    <div id="recipe-section" class="container-fluid">
+    <div id="recipe-section" class="container-fluid rtl">
         <div class="row">
             <div class="col-lg-12">
                 <h2 style="margin-bottom: 40px;" class="text-center">
@@ -245,14 +257,18 @@
         <h3 class="text-center orangered mb-4 mt-3">
             عکس های ارسالی بازدیدکنندگان
         </h3>
-        <div class="portfolio-item center" >
-            <img class="portfolio-item-image" src="images/posts/home_recipes_blog2.jpg" alt="">
-            <div class="row">
-                <div class="col-sm-3 col-md-3 col-lg-3">
-                    <img class="portfolio-item-profile" src="images/profile/saeed.jpg" alt="">
-                </div>
-                <!--./col-lg-6-->
-                <div class="col-sm-9 col-md-9 col-lg-9 portfolio-item-content">
+        <style>
+
+        </style>
+        <div class="portfolio-slider center">
+            <div class="portfolio-item center rtl" >
+                <img class="portfolio-item-image" src="images/posts/home_recipes_blog2.jpg" alt="">
+                <div class="row">
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <img class="portfolio-item-profile" src="images/profile/saeed.jpg" alt="">
+                    </div>
+                    <!--./col-lg-6-->
+                    <div class="col-sm-9 col-md-9 col-lg-9 portfolio-item-content">
                     <span class="main-color-brown-khoshmaze">
                         <span>سعید باباپور</span>
                                              از
@@ -261,26 +277,60 @@
                         <span> <a class="portfolio-item-link" href="">کاکائوی خوشمره باحال</a></span>
                         <span class="float-left mr-2"> 1397/2/4</span>
                     </span>
-                    <p class="mt-3">
-                        انصافا سایت زیبا و خوشگلی دارید که خصوصا اون قسمتی میری روش تکون میخوره لینک خیلی خوبه.
-                        دستورالعمل نیز عالی بود و غذای خوشمزه ای درست کرده و با خانواده خوردیم. نوش جانمان
-                    </p>
-                    <span class="article-read-more">
+                        <p class="mt-3">
+                            انصافا سایت زیبا و خوشگلی دارید که خصوصا اون قسمتی میری روش تکون میخوره لینک خیلی خوبه.
+                            دستورالعمل نیز عالی بود و غذای خوشمزه ای درست کرده و با خانواده خوردیم. نوش جانمان
+                        </p>
+                        <span class="article-read-more">
                         <span class="mr-3"><a class="google-color portfolio-item-google-icon" href=""><i class="fab fa-google-plus-g  fa-3x"></i></a></span>
                         <span class="position-relative  portfolio-item-like-icon"><a class="red" href=""><i class="far fa-heart fa-3x"></i></a></span>
                         <span style="" class="portfolio-item-like-number">20</span>
 
                     </span>
+                    </div>
+                    <!--./col-lg-6-->
                 </div>
-                <!--./col-lg-6-->
+                <!--./row-->
             </div>
-            <!--./row-->
+            <!--./portfolio-item-->
+            <div class="portfolio-item center rtl" >
+                <img class="portfolio-item-image" src="images/posts/home_recipes_blog1.jpg" alt="">
+                <div class="row">
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <img class="portfolio-item-profile" src="images/profile/saeed.jpg" alt="">
+                    </div>
+                    <!--./col-lg-6-->
+                    <div class="col-sm-9 col-md-9 col-lg-9 portfolio-item-content">
+                    <span class="main-color-brown-khoshmaze">
+                        <span>سعید باباپور</span>
+                                             از
+                        <span>تبریز</span>
+                        در دستورالعمل
+                        <span> <a class="portfolio-item-link" href="">کاکائوی خوشمره باحال</a></span>
+                        <span class="float-left mr-2"> 1397/2/4</span>
+                    </span>
+                        <p class="mt-3">
+                            انصافا سایت زیبا و خوشگلی دارید که خصوصا اون قسمتی میری روش تکون میخوره لینک خیلی خوبه.
+                            دستورالعمل نیز عالی بود و غذای خوشمزه ای درست کرده و با خانواده خوردیم. نوش جانمان
+                        </p>
+                        <span class="article-read-more">
+                        <span class="mr-3"><a class="google-color portfolio-item-google-icon" href=""><i class="fab fa-google-plus-g  fa-3x"></i></a></span>
+                        <span class="position-relative  portfolio-item-like-icon"><a class="red" href=""><i class="far fa-heart fa-3x"></i></a></span>
+                        <span style="" class="portfolio-item-like-number">20</span>
+
+                    </span>
+                    </div>
+                    <!--./col-lg-6-->
+                </div>
+                <!--./row-->
+            </div>
+            <!--./portfolio-item-->
         </div>
-        <!--./portfolio-item-->
+
     </div>
     <!--#portfolio-slider-->
 
-        <div id="footer" class="container-fluid">
+        <div id="footer" class="container-fluid rtl">
             <div class="row">
                 <div class="col-sm-4">
                     <div id="footer-logo">
@@ -417,7 +467,7 @@
             <!--./row-->
         </div>
     <!--#/footer-->
-    <div id="copy-right">
+    <div class="rtl" id="copy-right">
         <p class="text-center">
 
             طراحی شده با عشق توسط
@@ -437,6 +487,37 @@
 
 
 <script src="js/jquery-3.3.1.min.js"></script>
+
+<!--slider-scripts-->
+<!--<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>-->
+<!--<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
 <script src="style/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="slider/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+
+
+        $('.main-slider').slick({
+            // arrows:false,
+            // fade:true,
+            // vertical : true,
+            autoplay : true,
+            speed : 5000,
+        });
+        $('.portfolio-slider').slick({
+            // arrows:false,
+            fade:true,
+            // vertical : true,
+            dots : true,
+            autoplay : true,
+            speed : 5000,
+        });
+
+
+
+
+
+    });
+</script>
 </body>
 </html>

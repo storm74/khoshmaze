@@ -42,7 +42,7 @@ table#table-mavad tr{
 /*last-comments-single-page*/
 #last-comments-single-page{
     width: 80%;
-    background-color: #7c5d3d7a;
+    background-color: #dfb4847a;
     margin-top: 55px;
 }
 #last-comment-single-page-padding{
@@ -51,7 +51,7 @@ table#table-mavad tr{
 #last-comment-single-page-h3{
     padding: 15px;
     margin-bottom: 0px !important;
-    background: #3d7c6d;
+    background: #145567;
     color: #fff;
     font-family: iransans-web;
     font-size: 150%;
